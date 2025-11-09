@@ -250,3 +250,65 @@ a:hover {
     0 0 8px color-mix(in srgb, var(--clr-accent) 40%, transparent)
   );
 }
+
+.logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.logo-card {
+  background-color: #111; /* match site background */
+  border-radius: 12px;
+  padding: 0.75rem;
+  border: 1px solid #222; /* subtle edge definition */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 160px;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(255, 0, 0, 0.25);
+}
+
+.logo-card img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+.bio p:last-of-type {
+  margin-bottom: 1.5rem;
+}
+
+@media (max-width: 480px) {
+  .logo-card {
+    max-width: 120px;
+  }
+}
+
+.logo-grid {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.name {
+  letter-spacing: -0.015em;
+}
+
+.logo-card {
+  transition: transform 200ms cubic-bezier(0.25, 0.8, 0.25, 1),
+    box-shadow 200ms ease;
+}
