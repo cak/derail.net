@@ -9,15 +9,48 @@
       name="description"
       content="Cybersecurity leader, open-source builder, and data storyteller Caleb Kinney."
     />
-    <link rel="canonical" href="https://typeerror.com/" />
-    <meta name="theme-color" content="#bb86fc" />
+    <link rel="canonical" href="https://derail.net/" />
+    <meta name="theme-color" content="#0a0a0a" />
+    <link rel="icon" href="assets/derail_logo.png" type="image/png" />
 
+    <meta property="og:title" content="Caleb Kinney" />
+    <meta
+      property="og:description"
+      content="Cybersecurity leader, open-source builder, and data storyteller Caleb Kinney."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://derail.net/" />
+    <meta property="og:image" content="https://derail.net/assets/cak-avatar.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Caleb Kinney" />
+    <meta
+      name="twitter:description"
+      content="Cybersecurity leader, open-source builder, and data storyteller Caleb Kinney."
+    />
+    <meta
+      name="twitter:image"
+      content="https://derail.net/assets/cak-avatar.png"
+    />
+
+    <!-- Security (static site friendly). Adjust if you add external JS/CSS/fonts later. -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' https:; style-src 'self'; base-uri 'self'; form-action 'none'"
+    />
+
+    <!-- Performance: preload the avatar (likely LCP image) -->
     <link rel="preload" as="image" href="assets/cak-avatar.png" />
 
     <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <!-- Decorative background -->
+    <div class="hero-bg" aria-hidden="true"></div>
+
     <main id="main">
       <header class="hero">
         <img
@@ -29,7 +62,9 @@
           fetchpriority="high"
           decoding="async"
         />
+
         <h1 class="name">Caleb Kinney</h1>
+
         <p class="tagline">
           <span class="lead"
             >Turning hacker curiosity into data-driven defense.</span
@@ -62,13 +97,13 @@
           successful recording artists.
         </p>
 
-        <div class="logo-grid">
+        <section class="logo-grid" aria-label="Early work logos">
           <div class="logo-card">
             <img
               src="assets/lightonline.gif"
               alt="LightOnline logo"
               class="lightonline-logo"
-              fetchpriority="high"
+              loading="lazy"
               decoding="async"
             />
           </div>
@@ -77,7 +112,7 @@
               src="assets/light.gif"
               alt="Light logo"
               class="light-logo"
-              fetchpriority="high"
+              loading="lazy"
               decoding="async"
             />
           </div>
@@ -86,11 +121,11 @@
               src="assets/flame_logo.png"
               alt="Flame logo"
               class="flame-logo"
-              fetchpriority="high"
+              loading="lazy"
               decoding="async"
             />
           </div>
-        </div>
+        </section>
 
         <p>
           That indie web chapter led naturally into security, moving from bug
@@ -100,7 +135,7 @@
         </p>
 
         <p>
-          Today I'm the Manager of Security Operations at
+          Today I’m the Manager of Security Operations at
           <a href="https://posit.co" target="_blank" rel="noopener noreferrer"
             >Posit</a
           >
@@ -110,35 +145,41 @@
         </p>
 
         <p>
-          Open source keeps me grounded. I'm a core maintainer of
+          Open source keeps me grounded. I’m a core maintainer of
           <a
             href="https://hackertracker.app"
             target="_blank"
             rel="noopener noreferrer"
             >HackerTracker</a
-          >, a DEF CON Goon, and an adviser to the NumFOCUS Security Committee.
+          >, a DEF CON Goon, and an adviser to the
+          <a
+            href="https://numfocus.org/programs/security-committee"
+            target="_blank"
+            rel="noopener noreferrer"
+            >NumFOCUS Security Committee</a
+          >.
         </p>
 
-        <div class="logo-grid">
+        <section class="logo-grid" aria-label="Community logos">
           <div class="logo-card">
             <img
               src="assets/ht.png"
               alt="HackerTracker logo"
               class="ht-logo"
-              fetchpriority="high"
+              loading="lazy"
               decoding="async"
             />
           </div>
           <div class="logo-card">
             <img
               src="assets/goon_badge.png"
-              alt="Goon badge"
-              class="goon_badge"
-              fetchpriority="high"
+              alt="DEF CON Goon badge"
+              class="goon-badge"
+              loading="lazy"
               decoding="async"
             />
           </div>
-        </div>
+        </section>
 
         <p>
           My security-focused work lives at
@@ -154,13 +195,13 @@
           >, where curiosity and code intersect.
         </p>
 
-        <div class="logo-grid">
+        <section class="logo-grid" aria-label="Project logos">
           <div class="logo-card">
             <img
               src="assets/typeerror_logo.png"
               alt="TypeError logo"
               class="typeerror-logo"
-              fetchpriority="high"
+              loading="lazy"
               decoding="async"
             />
           </div>
@@ -169,11 +210,11 @@
               src="assets/snally_vaporwave.png"
               alt="Snally logo"
               class="snally-logo"
-              fetchpriority="high"
+              loading="lazy"
               decoding="async"
             />
           </div>
-        </div>
+        </section>
 
         <p>
           Away from the keyboard you’ll find me
@@ -219,16 +260,19 @@
             </li>
           </ul>
         </nav>
-        <p>
-          Made with <span class="heart">❤️</span> by Caleb Kinney. All opinions
-          are my own.
+
+        <p class="fineprint">
+          Made with
+          <span class="heart" role="img" aria-label="love">❤️</span> by Caleb
+          Kinney. All opinions are my own.
         </p>
+
         <img
           src="assets/derail_logo.png"
           alt="derail logo"
           width="120"
           height="120"
-          fetchpriority="high"
+          loading="lazy"
           decoding="async"
         />
       </footer>
