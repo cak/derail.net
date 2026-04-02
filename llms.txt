@@ -1,0 +1,47 @@
+# Caleb Kinney — derail.net
+
+## About
+
+derail.net is the personal landing page of Caleb Kinney, a cybersecurity leader and open-source builder.
+
+Caleb is a Manager of Security Operations at Posit. His work focuses on making security risk measurable, understandable, and actionable — improving how teams prioritize vulnerabilities and make security decisions under real-world constraints.
+
+## Focus Areas
+
+- Security operations and program design
+- Vulnerability management and remediation strategy
+- Risk measurement and prioritization
+- Application security
+- Data-driven security systems
+
+## Core Ideas
+
+- MTTR alone is an incomplete measure of security performance
+- Backlog health matters as much as remediation speed
+- Metrics should reflect exposure, not just activity
+- Simplicity and clarity outperform complex security frameworks
+
+## Community
+
+- HackerTracker — core maintainer (https://hackertracker.app)
+- DEF CON Goon
+- NumFOCUS Security Committee — adviser (https://numfocus.org/programs/security-committee)
+
+## Projects
+
+- TypeError — open-source security tools and experiments (https://typeerror.com)
+- Snally — data-driven side projects and web experiments (https://snally.com)
+
+## Background
+
+Caleb started in early web development and design, teaching himself HTML, CSS, and JavaScript on an Apple IIe and through IRC and early web communities. He later moved into security through bug bounties and application security, and now leads security operations while building open-source tools that help teams reduce real risk.
+
+## Personal
+
+Runs regularly on Maryland back roads. Husband and father of two daughters.
+
+## Links
+
+https://derail.net
+https://www.linkedin.com/in/calebk
+https://github.com/cak
