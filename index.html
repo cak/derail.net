@@ -1,84 +1,136 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Caleb Kinney</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Caleb Kinney | Cybersecurity Leader</title>
 
     <meta
       name="description"
-      content="Cybersecurity leader, open-source builder, and data storyteller Caleb Kinney."
+      content="Caleb Kinney is a cybersecurity leader, open-source builder, and security practitioner focused on measurable risk, vulnerability management, and practical security."
     />
+    <meta name="robots" content="index,follow" />
     <link rel="canonical" href="https://derail.net/" />
     <meta name="theme-color" content="#0a0a0a" />
     <link rel="icon" href="assets/derail_logo.png" type="image/png" />
 
-    <meta property="og:title" content="Caleb Kinney" />
+    <meta property="og:title" content="Caleb Kinney | Cybersecurity Leader" />
     <meta
       property="og:description"
-      content="Cybersecurity leader, open-source builder, and data storyteller Caleb Kinney."
+      content="Cybersecurity leader, open-source builder, and data-driven defender focused on measurable risk and practical security."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://derail.net/" />
     <meta property="og:image" content="https://derail.net/assets/cak-avatar.png" />
+    <meta property="og:image:alt" content="Portrait of Caleb Kinney" />
 
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Caleb Kinney" />
+    <meta name="twitter:title" content="Caleb Kinney | Cybersecurity Leader" />
     <meta
       name="twitter:description"
-      content="Cybersecurity leader, open-source builder, and data storyteller Caleb Kinney."
+      content="Cybersecurity leader, open-source builder, and data-driven defender focused on measurable risk and practical security."
     />
-    <meta
-      name="twitter:image"
-      content="https://derail.net/assets/cak-avatar.png"
-    />
+    <meta name="twitter:image" content="https://derail.net/assets/cak-avatar.png" />
+    <meta name="twitter:image:alt" content="Portrait of Caleb Kinney" />
 
-    <!-- Security (static site friendly). Adjust if you add external JS/CSS/fonts later. -->
     <meta
       http-equiv="Content-Security-Policy"
-      content="default-src 'self'; img-src 'self' https:; style-src 'self'; base-uri 'self'; form-action 'none'"
+      content="default-src 'self'; img-src 'self' https: data:; style-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'; frame-ancestors 'none'; upgrade-insecure-requests"
     />
 
-    <!-- Performance: preload the avatar (likely LCP image) -->
     <link rel="preload" as="image" href="assets/cak-avatar.png" />
-
     <link rel="stylesheet" href="style.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Caleb Kinney",
+        "url": "https://derail.net/",
+        "image": "https://derail.net/assets/cak-avatar.png",
+        "jobTitle": "Manager of Security Operations",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Posit"
+        },
+        "sameAs": [
+          "https://www.linkedin.com/in/calebk",
+          "https://github.com/cak",
+          "https://typeerror.com",
+          "https://snally.com",
+          "https://www.strava.com/athletes/309741"
+        ]
+      }
+    </script>
   </head>
 
   <body>
     <a class="skip-link" href="#main">Skip to content</a>
 
-    <!-- Decorative background -->
-    <div class="hero-bg" aria-hidden="true"></div>
+    <div class="page-glow" aria-hidden="true"></div>
 
-    <main id="main">
+    <main id="main" class="site-main">
       <header class="hero">
-        <img
-          src="assets/cak-avatar.png"
-          alt="Avatar of Caleb Kinney"
-          class="avatar"
-          width="240"
-          height="240"
-          fetchpriority="high"
-          decoding="async"
-        />
+        <div class="hero-copy">
+          <p class="eyebrow">Security, Data, and Open Source</p>
 
-        <h1 class="name">Caleb Kinney</h1>
+          <h1 class="name">Caleb Kinney</h1>
 
-        <p class="tagline">
-          <span class="lead"
-            >Turning hacker curiosity into data-driven defense.</span
-          ><br />
-          <span class="subtitle">Cybersecurity leader · OSS builder · Dad</span>
-        </p>
+          <p class="tagline">
+            <span class="lead">Turning hacker curiosity into data-driven defense.</span>
+            <span class="subtitle">Open-source builder, security practitioner, and dad.</span>
+          </p>
+
+          <p class="intro">
+            At
+            <a href="https://posit.co" target="_blank" rel="noopener noreferrer">Posit</a>, I work
+            across security operations, vulnerability management, and practical security strategy.
+          </p>
+
+          <nav class="hero-links" aria-label="Primary links">
+            <a
+              class="button"
+              href="https://www.linkedin.com/in/calebk"
+              target="_blank"
+              rel="noopener noreferrer"
+              >LinkedIn</a
+            >
+            <a
+              class="button"
+              href="https://github.com/cak"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GitHub</a
+            >
+            <a class="button" href="https://typeerror.com" target="_blank" rel="noopener noreferrer"
+              >TypeError</a
+            >
+            <a class="button" href="https://snally.com" target="_blank" rel="noopener noreferrer"
+              >Snally</a
+            >
+          </nav>
+        </div>
+
+        <div class="hero-visual">
+          <div class="avatar-frame">
+            <img
+              src="assets/cak-avatar.png"
+              alt="Portrait of Caleb Kinney"
+              class="avatar"
+              width="240"
+              height="240"
+              loading="eager"
+              fetchpriority="high"
+              decoding="async"
+            />
+          </div>
+        </div>
       </header>
 
-      <article class="bio">
-        <p>
-          I cut my teeth on a hand-me-down Apple IIe, late-night IRC ops, and
-          dial-up <em>Doom</em> deathmatches. That early hacker energy sparked a
-          lifelong love of code. I taught myself HTML, CSS, and JavaScript by
-          tweaking profiles on the ahead-of-its-time social network
+      <article class="bio" aria-label="Biography">
+        <p class="opening">
+          My path into security started with a hand-me-down Apple IIe, late-night IRC, and the early
+          web. I taught myself HTML, CSS, and JavaScript by tweaking profiles on
           <a
             href="https://web.archive.org/web/19961023021136/http://www.arcadium.com/"
             target="_blank"
@@ -89,67 +141,56 @@
 
         <p>
           By high school, I was hand-coding websites for the dot-com startup
-          <strong>Iprose Internet / Unique Focus</strong>, building the first
-          web presence for local businesses, and running
-          <strong>LightOnline</strong>, a music e-zine. In college, I pivoted
-          into design, crafting advertisements and magazine layouts for MWR
-          Marketing in Yokosuka, Japan, and creating album art for several
-          successful recording artists.
+          <strong>Iprose Internet / Unique Focus</strong>, building early web presences for local
+          businesses, and running <strong>LightOnline</strong>, a music e-zine. In college, I moved
+          deeper into design work, creating advertisements, magazine layouts, and album art.
         </p>
 
-        <section class="logo-grid" aria-label="Early work logos">
-          <div class="logo-card">
+        <figure class="logo-row">
+          <figcaption class="sr-only">Early work logos</figcaption>
+          <div class="logo-item logo-item-wide">
             <img
               src="assets/lightonline.gif"
               alt="LightOnline logo"
-              class="lightonline-logo"
+              width="545"
+              height="214"
               loading="lazy"
               decoding="async"
             />
           </div>
-          <div class="logo-card">
+          <div class="logo-item">
             <img
               src="assets/light.gif"
               alt="Light logo"
-              class="light-logo"
+              width="400"
+              height="318"
               loading="lazy"
               decoding="async"
             />
           </div>
-          <div class="logo-card">
+          <div class="logo-item">
             <img
               src="assets/flame_logo.png"
               alt="Flame logo"
-              class="flame-logo"
+              width="100"
+              height="100"
               loading="lazy"
               decoding="async"
             />
           </div>
-        </section>
+        </figure>
 
         <p>
-          That indie web chapter led naturally into security, moving from bug
-          bounties to leading application security and vulnerability management
-          programs. The same curiosity that once had me reverse engineering
-          games now fuels how I blend hacker instincts with data-driven defense.
+          That indie-web background led naturally into security, from bug bounties to leadership
+          across application security, vulnerability management, and security operations. I still
+          bring the same hacker curiosity to the work, but now I apply it to risk, measurement, and
+          decision-making.
         </p>
 
         <p>
-          Today I’m the Manager of Security Operations at
-          <a href="https://posit.co" target="_blank" rel="noopener noreferrer"
-            >Posit</a
-          >
-          (formerly RStudio), shaping strategy that safeguards millions of data
-          scientists and promoting a secure-by-design culture across product
-          lines.
-        </p>
-
-        <p>
-          Open source keeps me grounded. I’m a core maintainer of
-          <a
-            href="https://hackertracker.app"
-            target="_blank"
-            rel="noopener noreferrer"
+          Outside of my day job, I help build and support the communities I care about as a core
+          maintainer of
+          <a href="https://hackertracker.app" target="_blank" rel="noopener noreferrer"
             >HackerTracker</a
           >, a DEF CON Goon, and an adviser to the
           <a
@@ -160,121 +201,96 @@
           >.
         </p>
 
-        <section class="logo-grid" aria-label="Community logos">
-          <div class="logo-card">
+        <figure class="logo-row">
+          <figcaption class="sr-only">Community logos</figcaption>
+          <div class="logo-item">
             <img
               src="assets/ht.png"
               alt="HackerTracker logo"
-              class="ht-logo"
+              width="512"
+              height="512"
               loading="lazy"
               decoding="async"
             />
           </div>
-          <div class="logo-card">
+          <div class="logo-item logo-item-wide">
             <img
               src="assets/goon_badge.png"
               alt="DEF CON Goon badge"
-              class="goon-badge"
+              width="100"
+              height="53"
               loading="lazy"
               decoding="async"
             />
           </div>
-        </section>
+        </figure>
 
         <p>
-          My security-focused work lives at
-          <a
-            href="https://www.typeerror.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            >TypeError</a
-          >, a collection of open-source projects exploring measurable,
-          reproducible defense. My data-driven experiments land at
-          <a href="https://snally.com" target="_blank" rel="noopener noreferrer"
-            >Snally</a
-          >, where curiosity and code intersect.
+          My security-focused projects live at
+          <a href="https://typeerror.com" target="_blank" rel="noopener noreferrer">TypeError</a>,
+          where I publish open-source tools and experiments around measurable, reproducible defense.
+          I use
+          <a href="https://snally.com" target="_blank" rel="noopener noreferrer">Snally</a>
+          for data-driven side projects, prototypes, and web experiments.
         </p>
 
-        <section class="logo-grid" aria-label="Project logos">
-          <div class="logo-card">
+        <figure class="logo-row">
+          <figcaption class="sr-only">Project logos</figcaption>
+          <div class="logo-item">
             <img
               src="assets/typeerror_logo.png"
               alt="TypeError logo"
-              class="typeerror-logo"
+              width="1024"
+              height="1024"
               loading="lazy"
               decoding="async"
             />
           </div>
-          <div class="logo-card">
+          <div class="logo-item">
             <img
               src="assets/snally_vaporwave.png"
               alt="Snally logo"
-              class="snally-logo"
+              width="1024"
+              height="1024"
               loading="lazy"
               decoding="async"
             />
           </div>
-        </section>
+        </figure>
 
         <p>
-          Away from the keyboard you’ll find me
-          <a
-            href="https://www.strava.com/athletes/309741"
-            target="_blank"
-            rel="noopener noreferrer"
+          Away from the keyboard, I’m usually
+          <a href="https://www.strava.com/athletes/309741" target="_blank" rel="noopener noreferrer"
             >logging miles</a
           >
-          on Maryland back roads, dialing in craft pour-overs, sampling local
-          beer, and adventuring with my wife and two imaginative daughters.
+          on Maryland back roads or exploring with my wife and two daughters.
         </p>
       </article>
 
-      <footer class="contact">
-        <nav aria-label="Connect">
-          <span class="connect-label">Connect:</span>
-          <ul class="contact-list">
-            <li>
-              <a
-                href="https://www.linkedin.com/in/calebk"
-                target="_blank"
-                rel="noopener noreferrer"
-                >LinkedIn</a
-              >
-            </li>
-            <li>
-              <a
-                href="https://github.com/cak"
-                target="_blank"
-                rel="noopener noreferrer"
-                >GitHub</a
-              >
-            </li>
-            <li><a href="mailto:caleb@typeerror.com">Email</a></li>
-            <li>
-              <a
-                href="https://linktr.ee/typeerror"
-                target="_blank"
-                rel="noopener noreferrer"
-                >More links</a
-              >
-            </li>
-          </ul>
+      <footer class="site-footer">
+        <nav class="footer-links" aria-label="Connect">
+          <a href="mailto:caleb@typeerror.com">Email</a>
+          <a href="https://www.strava.com/athletes/309741" target="_blank" rel="noopener noreferrer"
+            >Strava</a
+          >
+          <a href="https://linktr.ee/typeerror" target="_blank" rel="noopener noreferrer"
+            >More links</a
+          >
         </nav>
 
-        <p class="fineprint">
-          Made with
-          <span class="heart" role="img" aria-label="love">❤️</span> by Caleb
-          Kinney. All opinions are my own.
-        </p>
+        <p class="fineprint">Caleb Kinney. Built for the open web. All opinions are my own.</p>
 
-        <img
-          src="assets/derail_logo.png"
-          alt="derail logo"
-          width="120"
-          height="120"
-          loading="lazy"
-          decoding="async"
-        />
+        <div class="footer-brand" aria-hidden="true">
+          <img
+            src="assets/derail_logo.png"
+            alt=""
+            class="footer-mark"
+            width="1024"
+            height="1024"
+            loading="lazy"
+            decoding="async"
+          />
+        </div>
       </footer>
     </main>
   </body>
